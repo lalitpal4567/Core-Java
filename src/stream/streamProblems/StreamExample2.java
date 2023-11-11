@@ -1,4 +1,4 @@
-package stream;
+package stream.streamProblems;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,5 +30,6 @@ public class StreamExample2 {
                 .collect(Collectors.toList()); // collecting as list
 
         System.out.println(productPriceList2);
+
     }
 }
