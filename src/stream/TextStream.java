@@ -12,5 +12,5 @@ public class TextStream {
         stream.filter((word) -> word.length() > 3)
                 .map((newword) -> newword.concat("Lalit"))
                 .forEach(System.out::println);
-    }
+     }
 }
